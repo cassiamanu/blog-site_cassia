@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+body {
+    font-family: Lexend Deca;
+    margin: 0;
+    padding: 0;
+    background-color: #D9D0C7;
+}
+
+h1{
+    background-image: linear-gradient(to right, rgb(90, 117, 177), rgb(111, 90, 177), rgb(238,177,177));
+    color: white;
+    text-align: center;
+    padding: 10%;
+}
+
+header {
+    background-color: #000000;
+    padding: 30px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul h3 {
+    display: inline;
+    margin: 0 1rem;
+    justify-content: space-between;
+}
+
+header nav ul h3  a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.saints {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem;
+   
+}
+
+.saint {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    width: calc(33.333% - 2rem);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.saint img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 20%;
+}
+
+.saint h2 {
+    font-size: 1.5rem;
+    margin: 1rem 0 0.5rem;
+}
+
+.saint p {
+    font-size: 1rem;
+    margin: 0.5rem 0 1rem;
+}
+
+.saint a {
+    text-decoration: none;
+    color: #256afd;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+footer .social-media {
+    margin: 40px 0;
+    text-align: left;
+}
+
+footer .social-media a {
+    margin: 0 0.5rem;
+}
+
+footer .social-media img {
+    
+    width: 30px;
+    height: 30px;
+}
+

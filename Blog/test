@@ -1,0 +1,64 @@
+div class="payment-icons">
+                img src="#" alt="Visa">  
+            img src="#" alt="Elo"> 
+                img src="#" alt="mastercard"> 
+                img src="#" alt="hipercard">
+                img src="#" alt="pix">
+                img src="#" alt="samsungpay"> 
+                img src="#" alt="googlepay"> 
+                img src="#" alt="applepay"> 
+                img src="#" alt="boleto">    
+        /div>
+
+
+        .footer .payment-icons {
+            display: flex;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            width: 100%; /* Garantir que use toda a largura disponível */
+            padding-left: 20px; /* Adicionar algum espaçamento da borda esquerda */
+        }
+        
+        .footer .payment-icons img {
+            margin: 5px 10px;
+            height: 30px; /* ajuste conforme necessário */
+        }
+        
+        !DOCTYPE html>
+html lang="pt-br">
+head>
+    meta charset="UTF-8">
+    meta name="viewport" content="width=device-width, initial-scale=1.0">
+    link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    link rel="stylesheet" href="acess/css/global.css">
+    link rel="stylesheet" href="acess/css/saibamais.css">
+    title>Sandra Sabattini</title>
+/head>
+body>
+    div class="container">
+        header id="header">
+             nav>
+        h2>a href="#">Home</h2>
+        <h2><a href="#">Loja</h2>
+        <h2><a href="#">Login</h2>
+        <h2><a href="#">Contatos</h2>
+        <h2><a href="#">Sobre</h2>
+        <h2><a href="#">Cadastrar</h2>
+    </nav>
+  
+          <div class="menu">
+          </div>
+          <div class="input-search">
+              <i class="bi bi-search"></i>
+              <input type="text" name="text" id="text" placeholder="Pesquisar">
+          </div>
+        </header>
+        <main>
+            <div class="profile">
+                <img src="imagens_blog/Sandra-.jpg" alt="Santa Sandra Sabattini">
+                <h1>Santa Sandra Sabattini</h1>
+                <p>Texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto</p>
+            </div>
+        </main>
+</body>
+</html>

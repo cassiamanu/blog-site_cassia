@@ -1,0 +1,44 @@
+body{
+    background-color: #D9D0C7;
+}
+
+h1{
+    text-align: center;
+}
+
+#header{
+    min-height: 20px;
+}
+
+.input-search :where(input, textarea){
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#main :where(form, .input-search){
+    display: grid;
+    gap: 20px;
+    margin: 10px 150px;
+    color: var(--title);
+    font-family: Lexend Deca;
+    font-size: 16px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.input-search :where(input,textarea){
+    padding: 20px;
+}
+
+input[type="submit"]{
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+input[type="submit"]:hover{
+    border: 1px solid var(--white);
+}
